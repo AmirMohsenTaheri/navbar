@@ -1,0 +1,54 @@
+body {
+    background-color: #3d5a80;
+
+}
+/* Start navbar */
+nav {
+    background-color: #98c1d9;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    border-bottom: 0.1rem solid #222;
+    box-shadow: -0.2rem -0.2rem 5rem #222;
+
+}
+/* links */
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ee6c4d;
+}
+/* list */
+li {
+    padding: 0.5rem 0.5rem;
+}
+
+.webSiteName {
+    font-size: x-large;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Start media */
+@media screen and (max-width: 660px) {
+
+    .main {
+        display: block;
+
+    }
+
+    .item {
+        padding-top: 0.5rem;
+        display: block;
+    }
+
+    .enter {
+        padding-top: 0.5rem;
+        display: block;
+    }
+}
